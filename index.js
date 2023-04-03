@@ -12,3 +12,11 @@
   {
     l.style.fontWeight = "bold"
   }
+  
+  let item = document.querySelectorAll(".list-group")[0].lastElementChild;
+
+  item.classList.add("list-group-item"); 
+
+  let liTags = document.getElementsByTagName("li");
+  let n = liTags.length-1;
+  liTags[n].style.fontWeight = "bold"
