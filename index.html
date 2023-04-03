@@ -26,8 +26,18 @@
        <div id="main" class="card card-body">
         <h2 class="title">Add Items</h2>
         <form id="addForm" class="form-inline mb-3">
-          <input type="text" class="form-control mr-2" id="item">
-          <input type="submit" class="btn btn-dark" value="Submit">
+            <div class="row">
+                <div class="col-auto">
+                    <input type="text" class="form-control col-auto" placeholder="Item name" id="item">
+                </div>
+                <div class="col-auto">
+                    <input type="text" class="form-control col-auto" placeholder="Description" id="description">
+                </div>
+                <div class="col-auto">
+                    <input type="submit" class="btn btn-dark col-auto" value="Submit">
+                </div>
+
+            </div>
         </form>
         <h2 class="title">Items</h2>
         <ul id="items" class="list-group">
@@ -36,17 +46,17 @@
              <button class="btn btn-primary btn-sm">edit</button>
              </div>
           </li>
-          <li class="list-group-item d-flex justify-content-between">Item 2  <div>
+          <li class="list-group-item d-flex justify-content-between" style="display: none;">Item 2  <div>
              <button class="btn btn-danger btn-sm  delete">X</button> 
              <button class="btn btn-primary btn-sm">edit</button>
              </div>
           </li>
-          <li class="list-group-item d-flex justify-content-between">Item 2  <div>
+          <li class="list-group-item d-flex justify-content-between">Item 3  <div>
              <button class="btn btn-danger btn-sm  delete">X</button> 
              <button class="btn btn-primary btn-sm">edit</button>
              </div>
           </li>
-          <li class="list-group-item d-flex justify-content-between">Item 2  <div>
+          <li class="list-group-item d-flex justify-content-between">Item 4  <div>
              <button class="btn btn-danger btn-sm  delete">X</button> 
              <button class="btn btn-primary btn-sm">edit</button>
              </div>
