@@ -10,8 +10,10 @@
  {    
     e.preventDefault();
 
+
     let name = document.querySelector("#addForm #item");
     let description = document.querySelector("#addForm #description")
+    localStorage.setItem(name.value,description.value)
 
     let li = document.createElement("li");
     let div = document.createElement("div");
