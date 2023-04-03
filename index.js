@@ -20,3 +20,9 @@
   let liTags = document.getElementsByTagName("li");
   let n = liTags.length-1;
   liTags[n].style.fontWeight = "bold"
+
+  let secondItem = document.querySelector(".list-group-item:nth-child(2)");
+  console.log(secondItem);
+  secondItem.style.backgroundColor = "green";
+  let thirdItem = document.querySelector(".list-group-item:nth-child(3)");
+  thirdItem.style.display = "none"
